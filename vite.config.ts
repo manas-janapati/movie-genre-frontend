@@ -15,10 +15,7 @@ export default defineConfig({
         manualChunks: undefined,
       },
     },
-  },
-  server: {
-    headers: {
-      'Content-Type': 'application/javascript',
-    },
+    sourcemap: false,
+    assetsDir: 'assets',
   },
 });
